@@ -71,7 +71,7 @@ public class FindingCandiesAndRemainder {
                     } else {
                         return findIndexesOfCandies(i + 1, maxCandies, remainder, indexes);
                     }
-                } else if (indexes.size() == maxCandies) {
+                } else {
                     break;
                 }
             } else {
