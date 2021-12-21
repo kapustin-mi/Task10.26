@@ -17,7 +17,6 @@ public class ConsoleMain {
         public String outputFile;
         public boolean error;
         public boolean help;
-
     }
 
     public static CmdParams parseArgs(String[] args) {
